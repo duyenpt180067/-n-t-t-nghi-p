@@ -1,0 +1,12 @@
+.icon-footer {
+    background-image: url(/img/footer.3a870aec.png);
+    height: 165px;
+    background-position: 50%;
+}
+
+.footer {
+    padding-bottom: 53px;
+    background-color: #181818;
+    color: white;
+    text-align: center;
+}

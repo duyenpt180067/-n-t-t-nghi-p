@@ -1,0 +1,274 @@
+.navbarweb {
+    width: 181px;
+    height: 100%;
+    border-right: solid 1px #e5e5e5;
+    position: relative;
+    transition: 100ms;
+    color: white;
+    background-color: #393a3d;
+    padding-top: 6px;
+}
+
+
+/* logo */
+
+.logo-site {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 16px;
+}
+
+.logo-site .toggle-icon {
+    display: flex;
+}
+
+.logo-site .toggle-icon>span {
+    cursor: pointer;
+}
+
+.logo-site .icon-home {
+    transition: 100ms;
+    flex: 1;
+    background-size: 75%;
+    background-position: center;
+}
+
+
+/* content navbar */
+
+.navbar-init {
+    /* width: calc(100% + 6px); */
+    margin-top: 15px;
+}
+
+.scroll-nav::-webkit-scrollbar {
+    width: 6px;
+}
+
+.navbar-init:hover {
+    width: 100%;
+}
+
+.nav-item {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 0 0 0 10px;
+    cursor: pointer;
+    border-left: 5px solid #393a3d;
+}
+
+.has-child {
+    display: block;
+    height: fit-content;
+}
+
+.has-child .child {
+    transition: .2s;
+    overflow: hidden;
+}
+
+.child .child-item {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 0 0 35px;
+    cursor: pointer;
+    border-left: 5px solid #393a3d;
+}
+
+.has-child .arror-right {
+    width: 20px;
+    overflow: hidden;
+    transition: .1s;
+}
+
+.child .child-item:hover,
+.nav-item:hover {
+    background-color: #5d5d61;
+    transition: 100ms;
+    z-index: 1;
+    font-weight: bold;
+    border-left: 5px solid #5d5d61;
+}
+
+.nav-item:hover>.nav-item-icon i {
+    color: #fff;
+}
+
+.navbar-init .nav-item-text {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: 100ms;
+    flex: 1;
+}
+
+
+/* icon */
+
+.nav-item-icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../../lib/img/common/Sprites.64af8f61.svg);
+}
+
+.nav-item-icon i {
+    font-size: 15px;
+    color: #f3f3f3;
+}
+
+.router-link-active .nav-item-icon i {
+    color: #fff;
+}
+
+.icon-toggle {
+    background-image: url(../../lib/img/common/Sprites.64af8f61.svg);
+    background-position: -312px -32px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.navbar-init .overview {
+    background-position: -30px -1628px;
+}
+
+.navbar-init .cash {
+    background-position: -73px -1628px;
+}
+
+.navbar-init .deposits {
+    background-position: -117px -1628px;
+}
+
+.navbar-init .shopping {
+    background-position: -161px -1628px;
+}
+
+.navbar-init .selling {
+    background-position: -204px -1628px;
+}
+
+.navbar-init .orders {
+    background-position: -249px -1628px;
+}
+
+.navbar-init .warehouse {
+    background-position: -291px -1628px;
+}
+
+.navbar-init .setting {
+    background-position: -336px -1628px;
+}
+
+.navbar-init .fixed-assets {
+    background-position: -378px -1628px;
+}
+
+.navbar-init .tax {
+    background-position: -423px -1628px;
+}
+
+.navbar-init .price {
+    background-position: -467px -1628px;
+}
+
+.navbar-init .synthetic {
+    background-position: -510px -1628px;
+}
+
+.navbar-init .budget {
+    background-position: -377px -1659px;
+}
+
+.navbar-init .reports {
+    background-position: -547px -1629px;
+}
+
+.navbar-init .financial-analysis {
+    background-position: -204px -1660px;
+}
+
+
+/* chuyển đến trang */
+
+.router-link-active .overview {
+    background-position: -30px -1585px;
+}
+
+.router-link-active .cash {
+    background-position: -73px -1585px;
+}
+
+.router-link-active .deposits {
+    background-position: -117px -1585px;
+}
+
+.router-link-active .shopping {
+    background-position: -161px -1585px;
+}
+
+.router-link-active .selling {
+    background-position: -204px -1585px;
+}
+
+.router-link-active .orders {
+    background-position: -249px -1585px;
+}
+
+.router-link-active .warehouse {
+    background-position: -291px -1585px;
+}
+
+.router-link-active .setting {
+    background-position: -336px -1585px;
+}
+
+.router-link-active .fixed-assets {
+    background-position: -378px -1585px;
+}
+
+.router-link-active .tax {
+    background-position: -423px -1585px;
+}
+
+.router-link-active .price {
+    background-position: -467px -1585px;
+}
+
+.router-link-active .synthetic {
+    background-position: -510px -1585px;
+}
+
+.router-link-active .budget {
+    background-position: -422px -1659px;
+}
+
+.router-link-active .reports {
+    background-position: -547px -1587px;
+}
+
+.router-link-active .financial-analysis {
+    background-position: -248px -1660px;
+}
+
+
+/* nav-title */
+
+.nav-item .nav-title {
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    padding: 3px 5px;
+    display: none;
+}
+
+.nav-item:hover>.nav-title {
+    display: block;
+}

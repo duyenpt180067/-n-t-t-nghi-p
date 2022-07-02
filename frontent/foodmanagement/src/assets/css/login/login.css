@@ -1,0 +1,79 @@
+.login-signup {
+    background: black;
+    padding: 20px;
+}
+
+.login-signup .form-login {
+    width: 450px;
+    margin: auto;
+    padding: 25px;
+    background-color: #161718;
+    border-radius: 5px;
+    box-shadow: 0 20px 50px 0 hsl(0deg 0% 64% / 10%)
+}
+
+.login-signup .form-login .text-title {
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: .2s;
+}
+
+.login-signup .form-login .text-title.text-active {
+    border-bottom: 4px #ffd400 solid;
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.login-signup .form-sign {
+    transition: .2s;
+    width: 100%;
+}
+
+.login-signup .form-sign.w-0 {
+    width: 0 !important;
+    height: 0;
+}
+
+.login-signup .form-sign.w-0 input {
+    padding: 0 !important;
+    border: none !important;
+    height: 0 !important;
+}
+
+.login-signup .form-sign.w-0 .form-input {
+    margin: 0 !important;
+}
+
+.login-signup .form-sign .form-input {
+    margin: 20px 0;
+}
+
+.login-signup .form-login .btn-submit {
+    font-size: 22px;
+    width: 100%;
+    padding: 10px;
+    background-color: #73330e;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.login-signup .sign-in .form-input input {
+    height: 47px;
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.login-signup .sign-up .form-input input {
+    height: 40px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0 10px;
+}

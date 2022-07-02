@@ -1,0 +1,101 @@
+.general-popup {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+    font-size: 13px;
+    left: 0;
+    height: 100%;
+}
+
+.pop {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.pop .popup {
+    box-sizing: border-box;
+    padding: 24px;
+    padding-bottom: 0;
+    background-color: white;
+    z-index: 3;
+    position: relative;
+    border-radius: 3px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 0 6px rgb(0 0 0 / 30%)
+}
+
+.pop .popup .content-pop {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.pop .popup .content-pop .icon-pop {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    margin-top: 6px;
+    background-image: url(../../lib/img/common/Sprites.64af8f61.svg);
+}
+
+.pop .popup .content-pop .notification-pop {
+    font-size: 13px;
+    width: calc(100% - 50px);
+}
+
+.pop .popup .btn-pop {
+    padding: 18px 0px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    border-top: 1px solid var(--gray-color);
+}
+
+.pop .popup .btn-pop .btn-pop-left {
+    display: flex;
+    position: absolute;
+    right: 24px;
+}
+
+.pop .popup .btn-pop .btn-pop-init {
+    border: 1px solid var(--gray-color);
+    padding: 9px 18px;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.pop .popup .btn-pop .btn1-pop {
+    margin-right: 12px;
+}
+
+.delete-pop {
+    background-color: #f65454!important;
+    color: white !important
+}
+
+.delete-icon-pop {
+    color: #f65454!important;
+    color: white !important
+}
+
+.primary-pop {
+    background-color: var(--primary-admin-color)!important;
+    color: white !important;
+}
+
+.primary-pop:focus,
+.primary-pop:hover {
+    background-color: var(--hover-admin-color) !important;
+}

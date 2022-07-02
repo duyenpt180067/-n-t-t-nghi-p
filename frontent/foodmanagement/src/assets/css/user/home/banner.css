@@ -1,0 +1,88 @@
+.banner {
+    height: 900px;
+    position: relative;
+}
+
+.banner .img-banner img {
+    height: 900px;
+    width: 100%;
+}
+
+.banner .img-tomato {
+    position: absolute;
+    top: -35px;
+    left: 20%;
+    transition: .2s;
+}
+
+.banner .img-tomato img {
+    animation: fadeInDown 2s;
+}
+
+.banner .img-vegetables {
+    position: absolute;
+    top: 55%;
+    right: 30%;
+}
+
+.banner .img-pizza {
+    position: absolute;
+    top: 15%;
+    right: -20px;
+}
+
+.banner .img-pizza img {
+    animation: bounceInLeft 2s;
+}
+
+.banner .spice1 {
+    position: absolute;
+    top: 20%;
+    right: -20px;
+}
+
+.banner .spice1 img {
+    animation: bounceInLeft 2s;
+    height: 600px;
+}
+
+.banner .img-vegetables img {
+    animation: bounceInLeft 2s;
+}
+
+.banner .banner-order {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    font-family: 'GoogleSans-Bold';
+    max-width: 480px;
+}
+
+.banner .banner-order .unlimited {
+    color: white;
+    font-size: 76px;
+    text-shadow: 1px 0 6px #000;
+    line-height: 78px;
+    animation: fadeInDown 2s;
+}
+
+.banner .banner-order .description-banner {
+    color: #00a149;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0 0 15px;
+    animation: fadeInDown 2s;
+}
+
+.banner .banner-order .description-order {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: .45px;
+    margin-bottom: 35px !important;
+    animation: fadeInDown 2s;
+}
+
+.banner .order-btn button {
+    animation: fadeInTop 2s;
+}

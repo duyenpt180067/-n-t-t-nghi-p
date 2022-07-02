@@ -1,0 +1,27 @@
+/* responsive navbar */
+
+@media (max-width: 756px) {
+    /* navbar */
+    .navbarweb {
+        width: 56px;
+    }
+    .navbar-init .nav-item-text {
+        font-size: 0;
+    }
+    .amis-logo {
+        visibility: hidden !important;
+    }
+    /* content */
+    .content {
+        width: calc(100% - 56px);
+        left: 56px;
+    }
+    /* header */
+    .top-head {
+        width: calc(100% - 56px);
+        left: 56px;
+    }
+    .account .account-image {
+        visibility: hidden;
+    }
+}
