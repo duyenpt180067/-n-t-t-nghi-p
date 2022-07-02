@@ -1,0 +1,17 @@
+﻿using FoodManagement.Core.Entities.FMFood;
+using FoodManagement.Core.General.Entities;
+using FoodManagement.Core.Interfaces.Service;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FoodManagement.Core.Interfaces.Infrastructure.IService.FMFood
+{
+    public interface IFoodService : IBaseService<Food>
+    {
+        public ServiceResult AddFood(FoodMerge FoodMerge);
+        public ServiceResult UpdateFood(FoodMerge FoodMerge);
+    }
+}

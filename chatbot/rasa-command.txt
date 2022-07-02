@@ -1,0 +1,8 @@
+-- venv
+python3 -m venv ./venv
+.\venv\Scripts\activate
+
+-- run không có action
+rasa run -m models --enable-api --cors "*" --debug
+-- nếu có action 
+rasa run -m models --enable-api --cors "*" --debug + 1 command line rasa run actions

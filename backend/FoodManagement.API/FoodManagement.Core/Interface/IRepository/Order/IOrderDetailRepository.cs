@@ -1,0 +1,14 @@
+﻿using FoodManagement.Core.Entities.FMOrder;
+using FoodManagement.Core.Interfaces.Repository;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FoodManagement.Core.Interfaces.Infrastructure.IRepository.FMOrder
+{
+    public interface IOrderDetailRepository : IBaseRepository<OrderDetail>
+    {
+    }
+}
