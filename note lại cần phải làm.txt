@@ -1,0 +1,14 @@
+- xử lý đơn hàng -> x
+- xử lý bình luận + đánh giá -> x
+- vẽ biểu đồ
+- xử lý đăng ký -> x
+- tính lại nếu có khuyến mãi
+- chatbot
+
+
+'208844b8-e607-11ec-8e41-98e7430c3bdb','2f19d1fc-1d2e-4505-8d75-22d18727c5d0','5663c8cf-d408-11ec-bf1a-98e7430c3bdb',null,1,'170000,'7/6/2022 9:11:22 AM',null,'7/6/2022 9:11:22 AM',null,'','Vegge Lover','FC-004','https://pathstorage1.blob.core.windows.net/files/17-1.png',170000,'M','SC-002'
+'208860c4-e607-11ec-8e41-98e7430c3bdb','2f19d1fc-1d2e-4505-8d75-22d18727c5d0','56620dc4-d408-11ec-bf1a-98e7430c3bdb',null,1,'128182,'7/6/2022 9:11:22 AM',null,'7/6/2022 9:11:22 AM',null,'65f88212-5922-6619-4ea4-e0d1ddfbcf7c','Vegge Lover','FC-004','https://pathstorage1.blob.core.windows.net/files/17-1.png',120000,'S','SC-001'
+'20888103-e607-11ec-8e41-98e7430c3bdb','2f19d1fc-1d2e-4505-8d75-22d18727c5d0','5663c8cf-d408-11ec-bf1a-98e7430c3bdb',null,1,'186492,'7/6/2022 9:11:22 AM',null,'7/6/2022 9:11:22 AM',null,'353675f2-73c0-55a3-bc5d-100ccbc59147,65f88212-5922-6619-4ea4-e0d1ddfbcf7c','Vegge Lover','FC-004'	https://pathstorage1.blob.core.windows.net/files/17-1.png	170000	M	SC-002	(null)	(null)	(null)	(null)	(null)	(null)	(null)	(null)	(null)	(null)
+'2088a1f9-e607-11ec-8e41-98e7430c3bdb','2f19d1fc-1d2e-4505-8d75-22d18727c5d0','76d21a1a-d407-11ec-bf1a-98e7430c3bdb',null,1,'100000,'7/6/2022 9:11:22 AM',null,'7/6/2022 9:11:22 AM',null,'','Supreme Pizza','FC-003','https://pathstorage1.blob.core.windows.net/files/chicken-hawaii.png'	120000	S	SC-001	(null)	(null)	(null)	(null)	(null)	DC-004	24/6/2022 5:00:00 PM	28/6/2022 5:00:00 PM	10	50000
+'283eb8ce-e7da-11ec-8e41-98e7430c3bdb','73446ee2-9877-4fc0-8dfc-75112c3248b3','f3c96c9e-d403-11ec-bf1a-98e7430c3bdb',null,1,'30000,'9/6/2022 4:54:30 PM',null,'9/6/2022 4:54:30 PM',null,'','Đùi gà rán','FC-001','https://pathstorage1.blob.core.windows.net/files/chicken-2.jpg'	30000	S	SC-001	(null)	(null)	(null)	(null)	(null)	(null)	(null)	(null)	(null)	(null)
+'283eb8ce-e7da-11ec-8e41-98e7430c3bdc','73446ee2-9877-4fc0-8dfc-75112c3248b2','f3c96c9e-d403-11ec-bf1a-98e7430c3bdb',null,1,'30000,'9/6/2022 4:54:30 PM',null,'9/6/2022 4:54:30 PM',null,'','Đùi gà rán','FC-001','https://pathstorage1.blob.core.windows.net/files/chicken-2.jpg'	30000	S	SC-001	(null)	(null)	(null)	(null)	(null)	(null)	(null)	(null)	(null)	(NULL)
